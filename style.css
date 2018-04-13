@@ -1,5 +1,5 @@
 html {
-    font: 10px;
+    font-size: 10px;
     background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
     background-size: cover;
 }
@@ -19,7 +19,7 @@ body,html {
     border: 0.4rem solid black;
     border-radius: .5rem;
     margin: 1rem;
-    font: 1.5rem;
+    font-size: 1.5rem;
     padding: 1rem 0.5rem;
     transition: all .07s ease;
     width: 10rem;
@@ -40,10 +40,10 @@ body,html {
 }
 kbd {
     display: block;
-    font: 4rem;
+    font-size: 4rem;
 }
 .sound {
-    font: 1.2rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
