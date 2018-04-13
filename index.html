@@ -8,22 +8,58 @@
     <title>Javascript30: Drumkit</title>
 </head>
 <body>
-    <div class="keys"> 
-        <!--repeat below div expansion to complete number of drum sounds.
-            data-key not a standard html element-->
+    <!--Main div created for drum section. Individual divs for each drum element-->
+    <div class="keys">
+        <!--data-key not standard element; kdb a phrase tag, used for keyboard input-->
         <div data-key = "65" class="key">
             <kbd>A</kbd>
             <span class="sound">clap</span>
         </div>
-    
-
-
-        
+        <div data-key = "83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+        <div data-key = "68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key = "70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Openhat</span>
+        </div>
+        <div data-key = "71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key = "72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <div data-key = "74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key = "75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Tom</span>
+        </div>
+        <div data-key = "76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Tink</span>
+        </div>
     </div>
-    
+
     <!-- Sound source need adding, for each drum key   -->
     <audio data-key = "65" src=""></audio>
-    
+    <audio data-key = "83" src=""></audio>
+    <audio data-key = "68" src=""></audio>
+    <audio data-key = "70" src=""></audio>
+    <audio data-key = "71" src=""></audio>
+    <audio data-key = "72" src=""></audio>
+    <audio data-key = "74" src=""></audio>
+    <audio data-key = "75" src=""></audio>
+    <audio data-key = "76" src=""></audio>
+
     <script src="script."></script>
 </body>
 </html>
